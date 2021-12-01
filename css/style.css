@@ -50,7 +50,16 @@
     .container .text.side{
         width: 50%;
         float: left;
-        padding: 40px; /*modificare per la parte grafica*/
+        padding: 0px 50px;
+    }
+
+    .text h2{
+        font-size: 40px;
+    }
+
+    .text p{
+        margin-top: 20px;
+        font-size: 15px;
     }
 
     .container .text.center{
