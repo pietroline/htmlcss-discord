@@ -66,9 +66,24 @@
         text-align: center;
     }
 
-    h1{ /*provvisorio da cancellare*/
-        color: red;
-        margin: 20px;
+    .text.center.ask{
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+        margin: 40px;
+    }
+
+    .container.big .downloader a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 20px;
+        background-color: #8ea1e1;
+        border-radius: 40px;
+        padding: 20px;
+    }
+
+    .container.big .downloader{
         text-align: center;
     }
+  
 /* main's css end */
