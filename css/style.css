@@ -23,8 +23,15 @@
 
 .container{
     width: 80%;
-    height: 300px; /*è opportuno questo approccio???*/
     margin: 10% auto;
+}
+
+.container.small{
+    height: 300px; /*è opportuno questo approccio???*/
+}
+
+.container.big{
+    height: 600px; /*è opportuno questo approccio???*/
 }
 
 .container::after{
@@ -34,16 +41,25 @@
 }
 
 /* start main's css */
-    .container img{
+    .container.small img{
         width: 50%;
+        height: 100%; /*necessario, senza le img sono più grandi del padre, quando allarghiamo la finestra del browser*/
         float: left;
     }
 
-    .container .text{
+    .container .text.side{
         width: 50%;
-        height: 100%;
         float: left;
         padding: 40px; /*modificare per la parte grafica*/
     }
 
+    .container .text.center{
+        text-align: center;
+    }
+
+    h1{ /*provvisorio da cancellare*/
+        color: red;
+        margin: 20px;
+        text-align: center;
+    }
 /* main's css end */
