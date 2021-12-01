@@ -3,3 +3,47 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+/* inizio provvisorio per header */
+    header{
+        height: 500px;
+        background-color: lightblue;
+        position: relative;
+    }
+
+    header > div{
+        font-size: 50px;
+        font-weight: bold;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+/* fine provvisiorio per header */
+
+.container{
+    width: 80%;
+    height: 300px; /*è opportuno questo approccio???*/
+    margin: 10% auto;
+}
+
+.container::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* start main's css */
+    .container img{
+        width: 50%;
+        float: left;
+    }
+
+    .container .text{
+        width: 50%;
+        height: 100%;
+        float: left;
+        padding: 40px; /*modificare per la parte grafica*/
+    }
+
+/* main's css end */
