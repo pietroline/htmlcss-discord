@@ -247,9 +247,25 @@ main .container::after{
         color: #fff;
     }
 
-   .footer_menu .primo{
+    .footer_menu .primo{
        color: #7089d5;
-   }
+    }
+
+    footer .lingua{
+        margin: 10px 0px;
+    }
+
+    footer .bandiera{
+        width: 20px;
+    }
+
+    footer .social i{
+        margin: 10px 10px;
+    }
+
+    footer .social i:first-child{
+        margin: 10px 10px 10px 0px;
+    }
 
     footer .container li{
         margin: 10px 0px;
