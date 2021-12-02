@@ -16,7 +16,7 @@ html{
 }
 
 .row:after{
-    content="";
+    content:"";
     display: table;
     clear: both;
 }
@@ -128,14 +128,6 @@ header{
 main .container{
     width: 80%;
     margin: 10% auto;
-}
-
-main .container.small{
-    height: 300px; /*è opportuno questo approccio???*/
-}
-
-main .container.big{
-    height: 600px; /*è opportuno questo approccio???*/
 }
 
 main .container::after{
